@@ -55,11 +55,11 @@ FetchApiData()
      <View style={{marginTop:10}}>
 
      
-     <Slider/>
+     {/* <Slider/> */}
       </View>
      <View style={{flexDirection:'row',justifyContent:'space-between',paddingVertical:10}}>
         <Text style={styles.text}>Featured</Text>
-        <Text style={[styles.text,{color:COLORS.blue}]} onPress={()=>navigation.navigate('Product',{data:data})}>See All</Text>
+        <Text style={[styles.text,{color:COLORS.blue}]} onPress={()=>navigation.navigate('product',{data:data})}>See All</Text>
     </View>
     <CommonCard renderid={1}   data={clothData} />
     <View style={{flexDirection:'row',justifyContent:'space-between',paddingVertical:10}}>
